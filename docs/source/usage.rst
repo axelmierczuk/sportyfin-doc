@@ -49,6 +49,14 @@ Below are some example uses:
 
    # Run Sportyfin on all leagues supported, and refresh every 60 minutes.
    python3 -m sportyfin -a -t 60
+   
+Once you have run the program, make sure to link to the .m3u's in the Jellyfin dashboard:
+
+``Dashboard > Live TV > Tuner Devices (+) > Tuner Type (M3U Tuner) > File or URL (enter path)``
+
+Once the path has been defined, you can check out your streams under:
+
+``Home > Live TV > Channels (at the top)``
 
 Arguments
 ------------
