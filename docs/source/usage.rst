@@ -28,27 +28,27 @@ Below are some example uses:
 .. code:: console
 
    # Run Sportyfin on all leagues supported.
-   python3 -m sportyfin -url "SomeURL" -a
+   python3 -m sportyfin -a
 
 .. code:: console
 
    # Run Sportyfin on NBA and NFL
-   python3 -m sportyfin -url "SomeURL" -nba -nfl
+   python3 -m sportyfin -nba -nfl
 
 .. code:: console
 
    # Run Sportyfin on all leagues supported and in silent mode.
-   python3 -m sportyfin -url "SomeURL" -a -vv
+   python3 -m sportyfin -a -vv
 
 .. code:: console
 
    # Run Sportyfin on English football leagues, in verbose more, with the output to Desktop.
-   python3 -m sportyfin -url "SomeURL" -ef -v -o "~/Desktop"
+   python3 -m sportyfin -ef -v -o "~/Desktop"
 
 .. code:: console
 
    # Run Sportyfin on all leagues supported, and refresh every 60 minutes.
-   python3 -m sportyfin -url "SomeURL" -a -t 60
+   python3 -m sportyfin -a -t 60
    
 Once you have run the program, make sure to link to the .m3u's in the Jellyfin dashboard:
 
@@ -60,7 +60,6 @@ Once the path has been defined, you can check out your streams under:
 
 Arguments
 ------------
-- ``-url`` - This is required! Please select a url, maybe try something like https://sportscentral.io?
 -  ``-a`` - Find streams for all leagues supported by Sportyfin.
 -  ``-nba`` - Find streams for NBA matches.
 -  ``-nhl`` - Find streams for NHL matches.
