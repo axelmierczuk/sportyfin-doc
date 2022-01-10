@@ -1,10 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to Sportyfin's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Stream sports events straight from your Jellyfin server. Sportyfin allows users to scrape for live streamed events and watch straight from Jellyfin. Sportyfin also generates meta-data that is used in Jellyfin to provide a great viewing experience.
+
+Currently, Sportyfin supports NBA, NHL, NFL, and English football livestreams, but we plan to support other leagues in the future.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -19,4 +18,4 @@ Contents
 .. toctree::
 
    usage
-   api
+   requirements

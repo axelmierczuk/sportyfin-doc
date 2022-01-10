@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+Sportyfin's Documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repository includes all of the documentation for `Sportify <https://github.com/axelmierczuk/sportyfin>`__.
 
-Read the tutorial here:
+Read the documentation here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://sportyfin-doc.readthedocs.io/en/latest
