@@ -5,4 +5,4 @@ This repository includes all of the documentation for `Sportify <https://github.
 
 Read the documentation here:
 
-https://sportyfin-doc.readthedocs.io/en/latest
+https://sportyfin-doc.readthedocs.io/en/latest/index.html
