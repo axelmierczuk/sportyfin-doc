@@ -7,7 +7,7 @@ Installation
 ------------
 
 To install Sportyfin, you must have ``python3`` and ``pip`` installed on
-your machine. Please see :doc:`requirements` for more details.
+your machine. Please see :doc:`requirements<Requirements>` for more details.
 
 Installation is as follows:
 
@@ -21,7 +21,7 @@ Finding Streams
 ----------------
 
 Run Sportyfin using ``python3 -m sportyfin``, followed by the arguments
-(please see the :ref:`arguments`).
+(please see the :ref:`arguments<Arguments>`).
 
 Below are some example uses:
 
@@ -61,6 +61,6 @@ Arguments
 -  ``-v`` - Enables verbose mode.
 -  ``-vv`` - Enables silent mode (no output).
 -  ``-s`` - Enables Sportyfin to scrape for streams using Selenium.
-   Please see `requirements <>`__ associated with this.
+   Please see :doc:`requirements<Requirements>` associated with this.
 -  ``-t`` - Specify how often to scrape in minutes (default 30 mins).
 -  ``-o`` - Specify the output directory. Sportyfin will create an ``output`` folder there and store meta-data, m3u/xml files.
