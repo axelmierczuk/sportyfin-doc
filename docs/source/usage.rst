@@ -17,6 +17,19 @@ Installation is as follows:
 
 More documentation will be added when Docker is supported.
 
+
+**NEW:** With Docker you can install as follows:
+
+.. code:: console
+
+   git clone <repo>
+   cd sportyfin
+   docker build --tag sportyfin .
+   docker run -v <Path Where You Want Output>:/sportyfin/output sportyfin 
+
+   # For example: docker run -v ~/Desktop:/sportyfin/output sportyfin 
+
+
 Finding Streams
 ----------------
 
