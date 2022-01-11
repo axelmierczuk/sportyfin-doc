@@ -21,6 +21,7 @@ Docker
 
 To install Sportyfin with Docker, follow the steps bellow:
 
+
 .. code:: console
    git clone <repo>
    cd sportyfin
@@ -28,7 +29,9 @@ To install Sportyfin with Docker, follow the steps bellow:
    docker run -v <Path Where You Want Output>:/sportyfin/output sportyfin 
    # For example: docker run -v ~/Desktop:/sportyfin/output sportyfin 
 
-_OR_ you may pull the container with the following:
+
+Or you may pull the container with the following:
+
 
 .. code:: console
    docker pull sportyfin/sportyfin:latest 
