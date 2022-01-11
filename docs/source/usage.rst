@@ -6,25 +6,33 @@ Usage
 Installation
 ------------
 
-To install Sportyfin, you must have ``python3`` and ``pip`` installed on
-your machine. Please see :doc:`requirements` for more details.
+Pip
+*****
 
-Installation is as follows:
+To install Sportyfin with pip, follow the steps bellow:
+
 
 .. code:: console
-
    pip install sportyfin --no-binary=sportyfin
 
-**NEW:** With Docker you can install and run as follows:
+
+Docker
+*******
+
+To install Sportyfin with Docker, follow the steps bellow:
 
 .. code:: console
-
    git clone <repo>
    cd sportyfin
    docker build --tag sportyfin .
    docker run -v <Path Where You Want Output>:/sportyfin/output sportyfin 
-
    # For example: docker run -v ~/Desktop:/sportyfin/output sportyfin 
+
+_OR_ you may pull the container with the following:
+
+.. code:: console
+   docker pull sportyfin/sportyfin:latest 
+   docker run -v <Path Where You Want Output>:/sportyfin/output sportyfin/sportyfin:latest
 
 
 Finding Streams
