@@ -13,6 +13,7 @@ To install Sportyfin with pip, follow the steps bellow:
 
 
 .. code:: console
+
    pip install sportyfin --no-binary=sportyfin
 
 
@@ -23,6 +24,7 @@ To install Sportyfin with Docker, follow the steps bellow:
 
 
 .. code:: console
+
    git clone <repo>
    cd sportyfin
    docker build --tag sportyfin .
@@ -34,6 +36,7 @@ Or you may pull the container with the following:
 
 
 .. code:: console
+
    docker pull sportyfin/sportyfin:latest 
    docker run -v <Path Where You Want Output>:/sportyfin/output sportyfin/sportyfin:latest
 
