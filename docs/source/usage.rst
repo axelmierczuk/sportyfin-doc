@@ -25,7 +25,7 @@ To install Sportyfin with Docker, follow the steps bellow:
 
 .. code:: console
 
-   git clone <repo>
+   git clone https://github.com/axelmierczuk/sportyfin.git
    cd sportyfin
    docker build --tag sportyfin .
    docker run -v <Path Where You Want Output>:/sportyfin/output sportyfin 
