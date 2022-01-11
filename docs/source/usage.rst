@@ -15,10 +15,7 @@ Installation is as follows:
 
    pip install sportyfin --no-binary=sportyfin
 
-More documentation will be added when Docker is supported.
-
-
-**NEW:** With Docker you can install as follows:
+**NEW:** With Docker you can install and run as follows:
 
 .. code:: console
 
