@@ -68,6 +68,8 @@ Once the path has been defined, you can check out your streams under:
 
 ``Home > Live TV > Channels (at the top)``
 
+.. image:: https://i.ibb.co/yS5ycS6/Screen-Shot-2022-01-11-at-11-08-08-AM.png
+
 Arguments
 ------------
 -  ``-a`` - Find streams for all leagues supported by Sportyfin.
