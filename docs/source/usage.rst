@@ -96,6 +96,7 @@ Once the path has been defined, you can check out your streams under:
 
 Arguments
 ------------
+-  ``-d`` - Run the program one time through, and exit. This can be used in combination with cron jobs to provide optimal performance.
 -  ``-a`` - Find streams for all leagues supported by Sportyfin.
 -  ``-nba`` - Find streams for NBA matches.
 -  ``-nhl`` - Find streams for NHL matches.
